@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Shemesh/static/css/main.c115fc64.css",
-    "main.js": "/Shemesh/static/js/main.ec4c42d9.js",
+    "main.css": "/Shemesh/static/css/main.a49fa93a.css",
+    "main.js": "/Shemesh/static/js/main.7e199706.js",
     "static/js/787.ec78c698.chunk.js": "/Shemesh/static/js/787.ec78c698.chunk.js",
     "static/media/colorsVideo.mp4": "/Shemesh/static/media/colorsVideo.f10ab128322cfa9fcae1.mp4",
     "static/media/homeVideo.mp4": "/Shemesh/static/media/homeVideo.6172c6ba5e6bc8121fb4.mp4",
@@ -52,12 +52,12 @@
     "static/media/aviLogo.png": "/Shemesh/static/media/aviLogo.52ad5702806063398494.png",
     "static/media/secondLogo.png": "/Shemesh/static/media/secondLogo.5e2882e74c59320d1c63.png",
     "index.html": "/Shemesh/index.html",
-    "main.c115fc64.css.map": "/Shemesh/static/css/main.c115fc64.css.map",
-    "main.ec4c42d9.js.map": "/Shemesh/static/js/main.ec4c42d9.js.map",
+    "main.a49fa93a.css.map": "/Shemesh/static/css/main.a49fa93a.css.map",
+    "main.7e199706.js.map": "/Shemesh/static/js/main.7e199706.js.map",
     "787.ec78c698.chunk.js.map": "/Shemesh/static/js/787.ec78c698.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c115fc64.css",
-    "static/js/main.ec4c42d9.js"
+    "static/css/main.a49fa93a.css",
+    "static/js/main.7e199706.js"
   ]
 }
