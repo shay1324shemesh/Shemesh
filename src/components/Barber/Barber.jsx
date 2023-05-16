@@ -47,7 +47,7 @@ const Barber = () => {
         <h1>אברהם שמש</h1>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, nisi asperiores saepe, minima consectetur aliquid ex nihil perferendis maxime sunt excepturi at facere et rerum itaque fugiat, nostrum repudiandae veniam.</p>
       </div>
-      <div>
+      <div className='photoAviDiv'>
       <img src={avi} alt="" style={{height:'400px',width:'450px',borderRadius:'25px',boxShadow:'white 1px 0 50px'}}/>
       </div>
       </div>
@@ -57,7 +57,7 @@ const Barber = () => {
     </div>
     <div className='barberContainer'>
         <div className='barberBackground'>
-            <img src={Image} alt="barber"/>
+            <img src={Image} alt="barber" />
         </div>
         <div className='barberDescription'>
           <div>
