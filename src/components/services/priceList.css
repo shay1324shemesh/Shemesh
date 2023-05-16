@@ -1,0 +1,107 @@
+.backgroundPriceList{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.innerImage1{
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+.allList p{
+    color: white;
+    font-size: 20px;
+    text-shadow: black 5px 4px 5px;
+}
+.allList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secondhalf{
+    margin-left: 250px;
+}
+.avi{
+    font-size: 30px;
+    margin: 50px;
+    color: white;
+    text-shadow: black 5px 2px 5px;
+}
+
+.allList button{
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+.backgroundPriceList h3{
+    position: relative;
+    color: white;
+    display: block;
+    margin: 75px;
+}
+.backgroundPriceList h1{
+    position: relative;
+    display: block;
+    color: white;
+    margin-top: 200px;
+    padding: 50px;
+}
+.innerList1{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+.innerList2{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: 75px;
+
+}
+.innerList3{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: 75px;
+
+}
+.innerList4{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: 75px;
+
+}
+.innerList5{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: 75px;
+
+}
+.innerList6{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: 75px;
+
+}
+@media (max-width:830px) {
+    .secondhalf{
+        margin-left: 25px;
+    }
+    .allList{
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+}

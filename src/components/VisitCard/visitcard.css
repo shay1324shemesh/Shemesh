@@ -1,0 +1,202 @@
+.visit-card {
+    position: relative;
+    transform-style: preserve-3d;
+    /* transition: transform 0.5s; */
+    transition: all 1s cubic-bezier(0.52,-0.76,0.52,1.65);
+  }
+  
+  .visit-card.flipped {
+    transform: perspective(1000px) rotateX(180deg);
+  }
+
+  .visit-card .front,
+  .visit-card .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+
+  .front{
+    display: flex;
+    flex-direction: column;
+  }
+  .emailBut{
+    font-family: Varela round;
+    color: rgb(63, 47, 22);
+  }
+  .telBut{
+    font-family: Varela round;
+
+    color: rgb(63, 47, 22);
+  }
+  .front h2{
+    margin-top: 40px;
+  }
+  .front img{
+     margin-top: 0px;
+     height: 225px;
+     width: 250px;
+  }
+  .visit-card .front {
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.77);
+    border-radius: 15px;
+    box-shadow: black 5px 5px 50px;
+  }
+  .back{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .back h2{
+    color: white;
+  }
+  .back h4{
+    text-align: end;
+    color: rgb(63, 47, 22);
+  }
+  .secondBack{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .messegeBut{
+    color: white;
+    text-decoration: none;
+  }
+  .messegeBut:hover{
+    color: rgb(253, 220, 136);
+  }
+  .emailLink{
+    color: white;
+    text-decoration: none;
+  }
+  .telLink{
+    color: white;
+    text-decoration: none;
+  }
+  .telLink:hover{
+    color: rgb(253, 220, 136);
+  }
+  .emailLink:hover{
+    color: rgb(253, 220, 136);
+  }
+  .firstBack{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+  }
+  .back h2{
+    text-align: end;
+  }
+  .back button{
+    background: none;
+    border: none;
+    font-size: 20px;
+  }
+  .onlyBack{
+    width: 2.5px;
+    background: aliceblue;
+    height: 100%;
+    box-shadow: goldenrod 5px 5px 50px;
+  }
+  .front h2{
+    text-decoration:underline
+  }
+  .front h2,p{
+    color: rgba(128, 128, 128, 0.816);
+    text-shadow: grey 2px 2px 5px ;
+  }
+  .onlyBack3{
+    width: 2.5px;
+    background: aliceblue;
+    height: 100%;
+    box-shadow: black 5px 5px 50px;
+
+  }
+  .onlyBack2{
+    width: 2.5px;
+    background: aliceblue;
+    height: 100%;
+    box-shadow: black 5px 5px 50px;
+  }
+  .onlyBack4{
+    width: 2.5px;
+    background: aliceblue;
+    height: 100%;
+    box-shadow: black 5px 5px 50px;
+  }
+  .onlyBack5{
+    width: 2.5px;
+    background: aliceblue;
+    height: 100%;
+    box-shadow: black 5px 5px 50px;
+  }
+  .onlyBack:hover{
+    background-color: rgb(253, 220, 136);
+  }
+  .onlyBack2:hover{
+    background-color: rgb(253, 220, 136);
+  }
+  .onlyBack3:hover{
+    background-color: rgb(253, 220, 136);
+  }
+  .onlyBack4:hover{
+    background-color: rgb(253, 220, 136);
+  }
+  .onlyBack5:hover{
+    background-color: rgb(253, 220, 136);
+  }
+  .visit-card .back {
+    transform: perspective(1000px) rotateX(180deg);
+    background-color: #4c2d0781;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    box-shadow: black 5px 5px 50px;
+  }
+  .imageLogoContainer{
+    height: 275px;
+    width: 200px;
+  }
+  .imageLogoContainer img {
+    height: 100%;
+    width: 100%;
+    padding-bottom: 90px;
+
+  }
+  .front {
+    color: rgb(255, 255, 255);
+  }
+  .visitCardName{
+    margin: 10px;
+  }
+  @media(max-width:800px){
+    .visit-card{
+      display: flex;
+      justify-content: center;
+    }
+    .visit-card .back{
+      width: 85%;
+      margin: 0;
+      padding: 0;
+      height: 85%;
+    }
+    .visit-card .front{
+      width: 85%;
+      height: 85%;
+      margin: 0;
+      padding: 0;
+      margin-top: 45px;
+
+    }
+    .back img{
+      height: 80%;
+      width: 60%;
+    }
+  }
