@@ -13,7 +13,9 @@ header {
     position: absolute;
     /* height: 135px; */
   }
-
+  .btn1{
+    background-color: rgba(0, 174, 255, 0.793);
+  }
   header img {
     width: 170px;
   }

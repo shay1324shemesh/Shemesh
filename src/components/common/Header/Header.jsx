@@ -88,8 +88,8 @@ const Header = ({ setNavList , navList}) => {
             shay
           </p>
           : <div className='buttonCall' style={{marginRight:'50px'}}>
-            <button className='btn1' style={{borderRadius:'5px',width:'175px',height:'75px',display:'flex',justifyContent:'center',alignItems:'center',fontSize:'20px',backgroundColor:'grey',color:'wheat',boxShadow:'white 1px 0 50px'}}>
-              0523773413 - לשיחת ייעוץ  
+            <button className='btn1' style={{borderRadius:'5px',width:'175px',height:'75px',display:'flex',justifyContent:'center',alignItems:'center',fontSize:'20px',fontFamily:'Varela Round',color:'black',textShadow:'white 2.5px 2px 2px ',boxShadow:'white 1px 0 50px'}}>
+              0508669944 - לשיחת ייעוץ  
             </button>
           </div>}
 

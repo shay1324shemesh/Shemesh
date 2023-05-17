@@ -32,7 +32,10 @@
     position: absolute;
     object-fit: cover;
 }
-
+.innerBarberDescription{
+    color: rgb(52, 143, 255);
+    font-size: 40px;
+}
 .mainBarberVideo .textDivBarber{
     width: 300px;
     padding: 20px;
@@ -67,7 +70,7 @@ justify-content: center;
 align-items: center;
 flex-wrap: wrap;
 max-width: 60%;
-font-size: 30px;
+font-size: 25px;
 }
 .barberBackground img{
     border-radius: 55px;
@@ -94,7 +97,7 @@ font-size: 30px;
 }
 .textDiv{
     text-align: end;
-    box-shadow: white 2px 0 50px;
+    box-shadow: rgb(0, 168, 252) 2px 0 50px;
     border-radius: 50px;
     color: white;
     text-shadow: black 5px 5px 5px;
@@ -118,6 +121,10 @@ font-size: 30px;
     .mainBarberVideo video{
         height: 1000px;
     }
+    .innerBarberDescription{
+        font-size: 20px;
+        color: rgb(52, 143, 255);
+    }
     .mainBarber{
         width: 100%;
     }
@@ -131,9 +138,10 @@ font-size: 30px;
     }
     .barberContainer{
         flex-direction: column;
-        height: 1500px;
+        height: 1750px;
         text-align: center;
         align-items: center;
     }
+
 
 }

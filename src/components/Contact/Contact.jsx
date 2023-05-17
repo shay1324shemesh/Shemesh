@@ -7,7 +7,11 @@ import Logo from '../common/Header/aviLogo.png'
 import chairImage from '../common/Header/whitebackTools.jpg'
 import blockBlackPhoto from '../services/blackBackground.jpg'
 import About from '../About/About'
+import useMediaQuery from '../common/Header/mediaQuery'
 const Contact = () => {
+
+  const isDesktop = useMediaQuery('(max-width:829px)')
+
   const chairStyles = {
     backgroundImage:`url(${chairImage})`,
     heigth:'450px',
@@ -42,7 +46,7 @@ const Contact = () => {
     <section className='contact mb'>
       <div className="mainContainerContact">
       <div className="contactContainer" style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center',textAlign:'center',backgroundImage:`url(${img})`,backgroundSize:'100% 100%',height:'600px'}} >
-        <div className="mainContactBlock" style={{backgroundImage:`url(${blockBlackPhoto})`}}>
+        <div className="mainContactBlock" style={isDesktop ? {backgroundImage:`url(${blockBlackPhoto})`,height:'175px',borderRadius:'50px',width:'50%',alignItems:'center',display:'flex',flexDirection:'column',justifyContent:'center',padding:'25px'} : {backgroundImage:`url(${blockBlackPhoto})`,height:'150px',display:'flex',justifyContent:'center',alignItems:'center',flexDirection:'column',padding:'15px',borderRadius:'25px'}}>
         <h2 style={{textShadow:'2px 1px 5px black',fontSize:'30px',textDecoration:'underline'}}>צרו איתנו קשר</h2>
             <h1 style={{textShadow:'2px 1px 5px black'}}>קבעו תור לתספורת כבר מעכשיו</h1>
         </div>

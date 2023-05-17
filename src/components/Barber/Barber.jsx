@@ -44,7 +44,7 @@ const Barber = () => {
     <div className='mainBarber' style={{backgroundImage:`url(${backgroundImageBrown})`,backgroundSize:'100% 100%'}}>
     <div className='moveDiv'>
       <div className='textDiv' style={isDesktop ? {maxWidth:'70%',fontSize:'20px',marginTop:'100px'} : {maxWidth:'40%',fontSize:'20px'}}>
-        <h1>אברהם שמש</h1>
+        <h1>..קצת עלינו</h1>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, nisi asperiores saepe, minima consectetur aliquid ex nihil perferendis maxime sunt excepturi at facere et rerum itaque fugiat, nostrum repudiandae veniam.</p>
       </div>
       <div className='photoAviDiv'>
@@ -62,9 +62,9 @@ const Barber = () => {
             />
         </div>
         <div className='barberDescription'>
-          <div>
-          <h1>hello</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati molestias aspernatur officiis optio aperiam cumque voluptatum est! Nobis numquam officia modi nostrum praesentium odit fugiat expedita blanditiis rerum? Eligendi, cum.</p>
+          <div className='innerBarberDescription'>
+          <h2>מה זה בעצם קבלן רשום ?</h2>
+            <p>בחיפוש אחר קבלן רשום שיעסוק בעבודות גמר ושלד, בניית ושיקום מבנים, ושיפוצים, חשוב למצוא מקצוען מיומן ואמין שישלב את הידע והמומחיות גדולות לכל מטרה. בחירה מומלצת בעבודות אלו, ולמרות שיש אפשרות להשתמש בקבלן לא רשום. קבל רשום שעוסק בעבודות גמר ושלד, בניית ושיקום מבנים, ושיפוצים מביא עימו יתרונות מרובים. ובראשונה, הוא מצויד בידע ומומחיות מקצועית בתחום, אינטגרציה מעמיקה של תהליכי הבנייה, התכנון והשיפוץ , קבלן מנוסה יותר בטווח של יותר שנים שהוא לא צריך להתעלם ממנו אם אתם רוצים מבאלגן בהמשך הצרכים של אנשים שמקבלים את המחירים. יותר אך על האיכות אנחנו ממליצים לא להתפשר </p>
           </div>
         </div>
     </div>
@@ -74,7 +74,7 @@ const Barber = () => {
     <div className='mainBarber' style={{backgroundImage:`url(${backgroundImageApp})`,backgroundSize:'100% 100%'}}>
     <div className='moveDiv'>
       <div className='textDiv' style={{maxWidth:'40%'}}>
-        <h1>אברהם שמש</h1>
+      <h1>..קצת עלינו</h1>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, nisi asperiores saepe, minima consectetur aliquid ex nihil perferendis maxime sunt excepturi at facere et rerum itaque fugiat, nostrum repudiandae veniam.</p>
       </div>
       <div>
@@ -91,8 +91,8 @@ const Barber = () => {
         </div>
         <div className='barberDescription'>
           <div>
-          <h1>hello</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati molestias aspernatur officiis optio aperiam cumque voluptatum est! Nobis numquam officia modi nostrum praesentium odit fugiat expedita blanditiis rerum? Eligendi, cum.</p>
+          <h2>מה זה בעצם קבלן רשום ?</h2>
+            <p>בחיפוש אחר קבלן רשום שיעסוק בעבודות גמר ושלד, בניית ושיקום מבנים, ושיפוצים, חשוב למצוא מקצוען מיומן ואמין שישלב את הידע והמומחיות גדולות לכל מטרה. בחירה מומלצת בעבודות אלו, ולמרות שיש אפשרות להשתמש בקבלן לא רשום. קבל רשום שעוסק בעבודות גמר ושלד, בניית ושיקום מבנים, ושיפוצים מביא עימו יתרונות מרובים. ובראשונה, הוא מצויד בידע ומומחיות מקצועית בתחום, אינטגרציה מעמיקה של תהליכי הבנייה, התכנון והשיפוץ , קבלן מנוסה יותר בטווח של יותר שנים שהוא לא צריך להתעלם ממנו אם אתם רוצים מבאלגן בהמשך הצרכים של אנשים שמקבלים את המחירים. יותר אך על האיכות אנחנו ממליצים לא להתפשר </p>
           </div>
         </div>
     </div>
