@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/Shemesh/static/css/main.a49fa93a.css",
-    "main.js": "/Shemesh/static/js/main.7e199706.js",
+    "main.css": "/Shemesh/static/css/main.eec83ddc.css",
+    "main.js": "/Shemesh/static/js/main.a34ac394.js",
     "static/js/787.ec78c698.chunk.js": "/Shemesh/static/js/787.ec78c698.chunk.js",
     "static/media/colorsVideo.mp4": "/Shemesh/static/media/colorsVideo.f10ab128322cfa9fcae1.mp4",
     "static/media/homeVideo.mp4": "/Shemesh/static/media/homeVideo.6172c6ba5e6bc8121fb4.mp4",
     "static/media/video1.mp4": "/Shemesh/static/media/video1.0ab8a09edad90f6e2ffc.mp4",
+    "static/media/secondToolsBack.jpg": "/Shemesh/static/media/secondToolsBack.4dec916d315dbba21084.jpg",
     "static/media/video2.mp4": "/Shemesh/static/media/video2.09b3e772692e450fe215.mp4",
-    "static/media/image3.jpg": "/Shemesh/static/media/image3.dca8f848069c26fda2f3.jpg",
+    "static/media/contactBack.jpg": "/Shemesh/static/media/contactBack.c6a22e06bb34c8dd023c.jpg",
+    "static/media/whitebackTools.jpg": "/Shemesh/static/media/whitebackTools.251bee8221d44d0994a7.jpg",
     "static/media/blackBackground.jpg": "/Shemesh/static/media/blackBackground.1b9ecb6a135be9f21cc3.jpg",
     "static/media/whiteTexture.jpg": "/Shemesh/static/media/whiteTexture.80ac4b1a8c708aca7756.jpg",
     "static/media/imageBarber2.jpg": "/Shemesh/static/media/imageBarber2.66d160fbac766917ac52.jpg",
@@ -39,7 +41,6 @@
     "static/media/p-5.png": "/Shemesh/static/media/p-5.d41e3bbb8a136a4c5878.png",
     "static/media/p-6.png": "/Shemesh/static/media/p-6.1a5720889994f55b633c.png",
     "static/media/black.jpeg": "/Shemesh/static/media/black.09ae32303956dd5af304.jpeg",
-    "static/media/barberChair.jpg": "/Shemesh/static/media/barberChair.b8c23ac3ae006f37eef4.jpg",
     "static/media/p-2.png": "/Shemesh/static/media/p-2.29e1ce82548249598508.png",
     "static/media/greyBuilding.jpeg": "/Shemesh/static/media/greyBuilding.5455319275784f5a6c0b.jpeg",
     "static/media/aviPhoto.jpg": "/Shemesh/static/media/aviPhoto.771d93f1b7b178285b9b.jpg",
@@ -52,12 +53,12 @@
     "static/media/aviLogo.png": "/Shemesh/static/media/aviLogo.52ad5702806063398494.png",
     "static/media/secondLogo.png": "/Shemesh/static/media/secondLogo.5e2882e74c59320d1c63.png",
     "index.html": "/Shemesh/index.html",
-    "main.a49fa93a.css.map": "/Shemesh/static/css/main.a49fa93a.css.map",
-    "main.7e199706.js.map": "/Shemesh/static/js/main.7e199706.js.map",
+    "main.eec83ddc.css.map": "/Shemesh/static/css/main.eec83ddc.css.map",
+    "main.a34ac394.js.map": "/Shemesh/static/js/main.a34ac394.js.map",
     "787.ec78c698.chunk.js.map": "/Shemesh/static/js/787.ec78c698.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a49fa93a.css",
-    "static/js/main.7e199706.js"
+    "static/css/main.eec83ddc.css",
+    "static/js/main.a34ac394.js"
   ]
 }
