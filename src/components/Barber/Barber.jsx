@@ -44,9 +44,13 @@ const Barber = () => {
     <div className='mainBarber' style={{backgroundImage:`url(${backgroundImageBrown})`,backgroundSize:'100% 100%'}}>
     <div className='moveDiv'>
       <div className='textDiv' style={isDesktop ? {maxWidth:'70%',fontSize:'20px',marginTop:'100px'} : {maxWidth:'40%',fontSize:'20px'}}>
-        <h1>..קצת עלינו</h1>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, nisi asperiores saepe, minima consectetur aliquid ex nihil perferendis maxime sunt excepturi at facere et rerum itaque fugiat, nostrum repudiandae veniam.</p>
-      </div>
+      <h1>מה זה בעצם קבלן רשום ?</h1>
+      <p>
+
+קבלן רשום הוא מקצוען שמורשה ומורה על ידי רשות מקצועית מקומית לביצוע עבודות בניה ושיפוצים. מטרתו היא ביצוע העבודות באיכות טובה לקוד הבניה הנכון. קבלן רשום מחויב בדרישות מקצועיות והמשפטיות הנוגעות לתחום הבנייה.
+
+
+הקבלן דואג לביצוע העבודות המקצועיות ורמת המקצועיות בעבודה עצמה, דואג לניהול הפרויקט, רכישת חומר וציוד, תכנון ותיאום הלו"ז של הפרויקט, וביצוע וניטור של שלבי העבודה המאפשרים לקבל את הבטיחות במקום בדרכים המשפטיות והמקצועיות ביותר.</p>      </div>
       <div className='photoAviDiv'>
       <img src={avi} alt="" style={isDesktop ? {height:'300px',width:'325px',borderRadius:'25px',boxShadow:'white 1px 0 50px'} : {height:'400px',width:'450px',borderRadius:'25px',boxShadow:'white 1px 0 50px'}}/>
       </div>
@@ -63,7 +67,7 @@ const Barber = () => {
         </div>
         <div className='barberDescription'>
           <div className='innerBarberDescription'>
-          <h2>מה זה בעצם קבלן רשום ?</h2>
+          <h2>מה חשוב לדעת בבחירת קבלן לעבודה ?</h2>
             <p>בחיפוש אחר קבלן רשום שיעסוק בעבודות גמר ושלד, בניית ושיקום מבנים, ושיפוצים, חשוב למצוא מקצוען מיומן ואמין שישלב את הידע והמומחיות גדולות לכל מטרה. בחירה מומלצת בעבודות אלו, ולמרות שיש אפשרות להשתמש בקבלן לא רשום. קבל רשום שעוסק בעבודות גמר ושלד, בניית ושיקום מבנים, ושיפוצים מביא עימו יתרונות מרובים. ובראשונה, הוא מצויד בידע ומומחיות מקצועית בתחום, אינטגרציה מעמיקה של תהליכי הבנייה, התכנון והשיפוץ , קבלן מנוסה יותר בטווח של יותר שנים שהוא לא צריך להתעלם ממנו אם אתם רוצים מבאלגן בהמשך הצרכים של אנשים שמקבלים את המחירים. יותר אך על האיכות אנחנו ממליצים לא להתפשר </p>
           </div>
         </div>
@@ -74,8 +78,13 @@ const Barber = () => {
     <div className='mainBarber' style={{backgroundImage:`url(${backgroundImageApp})`,backgroundSize:'100% 100%'}}>
     <div className='moveDiv'>
       <div className='textDiv' style={{maxWidth:'40%'}}>
-      <h1>..קצת עלינו</h1>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, nisi asperiores saepe, minima consectetur aliquid ex nihil perferendis maxime sunt excepturi at facere et rerum itaque fugiat, nostrum repudiandae veniam.</p>
+      <h1>מה זה בעצם קבלן רשום ?</h1>
+      <p>
+
+קבלן רשום הוא מקצוען שמורשה ומורה על ידי רשות מקצועית מקומית לביצוע עבודות בניה ושיפוצים. מטרתו היא ביצוע העבודות באיכות טובה לקוד הבניה הנכון. קבלן רשום מחויב בדרישות מקצועיות והמשפטיות הנוגעות לתחום הבנייה.
+
+
+הקבלן דואג לביצוע העבודות המקצועיות ורמת המקצועיות בעבודה עצמה, דואג לניהול הפרויקט, רכישת חומר וציוד, תכנון ותיאום הלו"ז של הפרויקט, וביצוע וניטור של שלבי העבודה המאפשרים לקבל את הבטיחות במקום בדרכים המשפטיות והמקצועיות ביותר.</p>
       </div>
       <div>
       <img src={avi} alt="" style={{height:'400px',width:'450px',borderRadius:'25px',boxShadow:'white 1px 0 50px'}}/>
@@ -91,7 +100,7 @@ const Barber = () => {
         </div>
         <div className='barberDescription'>
           <div>
-          <h2>מה זה בעצם קבלן רשום ?</h2>
+          <h2>מה חשוב לדעת בבחירת קבלן לעבודה ?</h2>
             <p>בחיפוש אחר קבלן רשום שיעסוק בעבודות גמר ושלד, בניית ושיקום מבנים, ושיפוצים, חשוב למצוא מקצוען מיומן ואמין שישלב את הידע והמומחיות גדולות לכל מטרה. בחירה מומלצת בעבודות אלו, ולמרות שיש אפשרות להשתמש בקבלן לא רשום. קבל רשום שעוסק בעבודות גמר ושלד, בניית ושיקום מבנים, ושיפוצים מביא עימו יתרונות מרובים. ובראשונה, הוא מצויד בידע ומומחיות מקצועית בתחום, אינטגרציה מעמיקה של תהליכי הבנייה, התכנון והשיפוץ , קבלן מנוסה יותר בטווח של יותר שנים שהוא לא צריך להתעלם ממנו אם אתם רוצים מבאלגן בהמשך הצרכים של אנשים שמקבלים את המחירים. יותר אך על האיכות אנחנו ממליצים לא להתפשר </p>
           </div>
         </div>
