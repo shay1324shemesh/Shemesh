@@ -10,7 +10,7 @@ const GalleryLink = () => {
   return (
     <>
     <div className="mainGevesVideo">
-    <video autoPlay loop muted >
+    <video autoPlay loop muted playsInline>
         <source src={galleryVideo} type="video/mp4"/>
       </video>
 
