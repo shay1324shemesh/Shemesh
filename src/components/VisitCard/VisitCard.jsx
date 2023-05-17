@@ -46,7 +46,7 @@ function VisitCard() {
 
     <div
     className={`visit-card ${flipped ? "flipped" : ""}`}
-    style={isDesktop ?{ width: "375px", height: "250px", borderRadius: "50px" } :{width: "450px", height: "270px", borderRadius: "50px" }}
+    style={isDesktop ?{ width: "370px", height: "250px", borderRadius: "50px" } :{width: "450px", height: "270px", borderRadius: "50px" }}
     onClick={handleFlip}
   >
     <div className="front">

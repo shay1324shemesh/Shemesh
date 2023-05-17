@@ -19,6 +19,7 @@ import AccessibilityMenu from '../Accessibility/AccessibilityMenu'
 import NavbarHeader from '../common/Header/NavbarHeader'
 import SlideBarber2 from '../SlideBarber/SlideBarber2'
 import SlideBarber3 from '../SlideBarber/SlideBarber3'
+import WhatsappWidget from '../WhatsappWidget/WhatsappWidget'
 const Pages = () => {
   const [navList, setNavList] = useState(false)
 
@@ -45,6 +46,7 @@ const Pages = () => {
         <Route path='/hiddenNavbar' element={<NavbarHeader setNavList={setNavList} navList={navList}/>}></Route>
       </Routes>
       <AccessibilityMenu/>
+      <WhatsappWidget/>
     </Router>
     </>
   )
