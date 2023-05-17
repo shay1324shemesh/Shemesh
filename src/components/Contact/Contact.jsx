@@ -1,10 +1,12 @@
 import React from 'react'
 import Back from '../common/Back'
-import img from '../SlideBarber/image3.jpg'
+import img from '../SlideBarber/contactBack.jpg'
 import './contact.css'
+import formBackgroundImage from '../common/Header/secondToolsBack.jpg'
 import Logo from '../common/Header/aviLogo.png'
-import chairImage from './barberChair.jpg'
-
+import chairImage from '../common/Header/whitebackTools.jpg'
+import blockBlackPhoto from '../services/blackBackground.jpg'
+import About from '../About/About'
 const Contact = () => {
   const chairStyles = {
     backgroundImage:`url(${chairImage})`,
@@ -12,7 +14,6 @@ const Contact = () => {
     width:'400px',
     backgroundSize:'100% 100%',
     backgroundRepeat:'no-repeat',
-    marginTop:'50px'
   }
   // var LogoStylesFunction =()=>{
   //   if(isDesktop == true){
@@ -41,8 +42,10 @@ const Contact = () => {
     <section className='contact mb'>
       <div className="mainContainerContact">
       <div className="contactContainer" style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center',textAlign:'center',backgroundImage:`url(${img})`,backgroundSize:'100% 100%',height:'600px'}} >
-           <h2>צרו איתנו קשר</h2>
-            <h1>קבעו תור לתספורת כבר מעכשיו</h1>
+        <div className="mainContactBlock" style={{backgroundImage:`url(${blockBlackPhoto})`}}>
+        <h2 style={{textShadow:'2px 1px 5px black',fontSize:'30px',textDecoration:'underline'}}>צרו איתנו קשר</h2>
+            <h1 style={{textShadow:'2px 1px 5px black'}}>קבעו תור לתספורת כבר מעכשיו</h1>
+        </div>
         </div>
       </div>
       {/* <Back className='backContact' name='צרו איתנו קשר' title='! קבעו תור לתספורת כבר מעכשיו' cover={img} /> */}
@@ -67,7 +70,6 @@ const Contact = () => {
           </div>
       </div>
     </section>
-
     </>
   )
 }

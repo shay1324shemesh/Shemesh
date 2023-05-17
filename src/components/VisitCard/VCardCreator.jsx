@@ -1,11 +1,14 @@
 import { saveAs } from 'file-saver';
+import useMediaQuery from '../common/Header/mediaQuery';
 import './cardCreator.css'
 function downloadVcfFile() {
+
+
   // Define the vCard data
   const vCardData = `BEGIN:VCARD
 VERSION:3.0
-N:Lastname;אברהם;;;
-FN:Firstname שמש
+N:שמש קבלן רשום;אברהם;;;
+FN:אברהם שמש
 TEL;TYPE=WORK,VOICE:(+972) 50-866-9944
 EMAIL;TYPE=PREF,INTERNET:avraham1962@gmail.com
 END:VCARD`;
@@ -17,10 +20,13 @@ END:VCARD`;
   saveAs(blob, 'Avraham-Shemesh.vcf');
 }
 
+
 function VCardCreator() {
   return (
     <div className='vCardCreatorMain'>
-      <h2 onClick={downloadVcfFile}>אברהם שמש</h2>
+      <h2 onClick={downloadVcfFile}
+      style={ {fontSize:'25px'}}
+      >אברהם שמש</h2>
     </div>
   );
 }

@@ -89,7 +89,7 @@ const Header = ({ setNavList , navList}) => {
           </p>
           : <div className='buttonCall' style={{marginRight:'50px'}}>
             <button className='btn1' style={{borderRadius:'5px',width:'175px',height:'75px',display:'flex',justifyContent:'center',alignItems:'center',fontSize:'20px',backgroundColor:'grey',color:'wheat',boxShadow:'white 1px 0 50px'}}>
-              0523773413 - התקשרו אלינו לקביעת תור 
+              0523773413 - לשיחת ייעוץ  
             </button>
           </div>}
 

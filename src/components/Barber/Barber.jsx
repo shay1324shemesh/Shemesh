@@ -43,7 +43,7 @@ const Barber = () => {
     {isDesktop ?     
     <div className='mainBarber' style={{backgroundImage:`url(${backgroundImageBrown})`,backgroundSize:'100% 100%'}}>
     <div className='moveDiv'>
-      <div className='textDiv'>
+      <div className='textDiv' style={isDesktop ? {maxWidth:'70%',fontSize:'20px',marginTop:'100px'} : {maxWidth:'40%',fontSize:'20px'}}>
         <h1>אברהם שמש</h1>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, nisi asperiores saepe, minima consectetur aliquid ex nihil perferendis maxime sunt excepturi at facere et rerum itaque fugiat, nostrum repudiandae veniam.</p>
       </div>
@@ -71,7 +71,7 @@ const Barber = () => {
     :
     <div className='mainBarber' style={{backgroundImage:`url(${backgroundImageApp})`,backgroundSize:'100% 100%'}}>
     <div className='moveDiv'>
-      <div className='textDiv'>
+      <div className='textDiv' style={{maxWidth:'40%'}}>
         <h1>אברהם שמש</h1>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, nisi asperiores saepe, minima consectetur aliquid ex nihil perferendis maxime sunt excepturi at facere et rerum itaque fugiat, nostrum repudiandae veniam.</p>
       </div>

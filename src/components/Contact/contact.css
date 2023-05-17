@@ -7,6 +7,20 @@
     justify-content: center;
     align-items: center;
 }
+.mainContactBlock,h2{
+    color: rgb(52, 143, 255);
+}
+.mainContactBlock{
+    background-color: aliceblue;
+    max-width: 30%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50px;
+    padding: 15px;
+}
 .contactContainer h1,
 .contactContainer h2{
 }
@@ -37,9 +51,10 @@
 }
 .containerForm{
     width: 100%;
-    height: 100%;
+    height: 500px;
     display: flex;
     justify-content: space-between;
+
 }
 
 .formLogo{

@@ -28,6 +28,7 @@ const Pages = () => {
       <Header setNavList={setNavList} navList={navList} />
       <Routes>
       <Route path='/' element={<Home/>}></Route>
+      <Route path='/Shemesh' element={<Home/>}></Route>
         <Route path='/Real-Estate' element={<Home/>}></Route>
         <Route path='/about' element={<About/>}></Route>
         <Route path='/services' element={<PriceList/>}></Route>
@@ -43,7 +44,7 @@ const Pages = () => {
         <Route path='/GalleryLink' element={<GalleryLink/>}></Route>
         <Route path='/hiddenNavbar' element={<NavbarHeader setNavList={setNavList} navList={navList}/>}></Route>
       </Routes>
-
+      <AccessibilityMenu/>
     </Router>
     </>
   )
