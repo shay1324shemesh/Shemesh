@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Shemesh/static/css/main.f21ebc48.css",
-    "main.js": "/Shemesh/static/js/main.c54360d5.js",
+    "main.css": "/Shemesh/static/css/main.5730fd10.css",
+    "main.js": "/Shemesh/static/js/main.3ce6057b.js",
     "static/js/787.ec78c698.chunk.js": "/Shemesh/static/js/787.ec78c698.chunk.js",
     "static/media/colorsVideo.mp4": "/Shemesh/static/media/colorsVideo.f10ab128322cfa9fcae1.mp4",
     "static/media/homeVideo.mp4": "/Shemesh/static/media/homeVideo.6172c6ba5e6bc8121fb4.mp4",
@@ -54,12 +54,12 @@
     "static/media/secondLogo.png": "/Shemesh/static/media/secondLogo.5e2882e74c59320d1c63.png",
     "static/media/whatsappIcon.png": "/Shemesh/static/media/whatsappIcon.1251835df836e146d36a.png",
     "index.html": "/Shemesh/index.html",
-    "main.f21ebc48.css.map": "/Shemesh/static/css/main.f21ebc48.css.map",
-    "main.c54360d5.js.map": "/Shemesh/static/js/main.c54360d5.js.map",
+    "main.5730fd10.css.map": "/Shemesh/static/css/main.5730fd10.css.map",
+    "main.3ce6057b.js.map": "/Shemesh/static/js/main.3ce6057b.js.map",
     "787.ec78c698.chunk.js.map": "/Shemesh/static/js/787.ec78c698.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f21ebc48.css",
-    "static/js/main.c54360d5.js"
+    "static/css/main.5730fd10.css",
+    "static/js/main.3ce6057b.js"
   ]
 }
