@@ -8,6 +8,7 @@ import chairImage from '../common/Header/whitebackTools.jpg'
 import blockBlackPhoto from '../services/blackBackground.jpg'
 import About from '../About/About'
 import useMediaQuery from '../common/Header/mediaQuery'
+import ContactForm from './ContactForm'
 const Contact = () => {
 
   const isDesktop = useMediaQuery('(max-width:829px)')
@@ -48,7 +49,7 @@ const Contact = () => {
       <div className="contactContainer" style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center',textAlign:'center',backgroundImage:`url(${img})`,backgroundSize:'100% 100%',height:'600px'}} >
         <div className="mainContactBlock" style={isDesktop ? {backgroundImage:`url(${blockBlackPhoto})`,height:'175px',borderRadius:'50px',width:'50%',alignItems:'center',display:'flex',flexDirection:'column',justifyContent:'center',padding:'25px'} : {backgroundImage:`url(${blockBlackPhoto})`,height:'150px',display:'flex',justifyContent:'center',alignItems:'center',flexDirection:'column',padding:'15px',borderRadius:'25px'}}>
         <h2 style={{textShadow:'2px 1px 5px black',fontSize:'30px',textDecoration:'underline'}}>צרו איתנו קשר</h2>
-            <h1 style={{textShadow:'2px 1px 5px black'}}>קבעו תור לתספורת כבר מעכשיו</h1>
+            <h1 style={{textShadow:'2px 1px 5px black'}}>פנו אלינו לייעוץ כבר עכשיו  </h1>
         </div>
         </div>
       </div>
@@ -59,16 +60,8 @@ const Contact = () => {
           <img src={Logo} alt="" className='formLogo'/>
           </div>
         </div>
-        <form action="" >
-          <h4 style={{textAlign:'center'}}>אנא מלא את הפרטים הבאים</h4>
-          <div className='twoInputs'>
-            <input type="text" placeholder='שם מלא'/>
-            <input type="text" placeholder='אימייל'/>
-          </div>
-          <input type="text" placeholder='נושא הפנייה' className='lastInput'/>
-          <textarea className='textArea' name="" id="" cols="30" rows="10"></textarea>
-          <button className='FormSendButton'> שלח פרטים</button>
-        </form>
+        <ContactForm/>
+
         <div className='chairImage' style={chairStyles}>
           
           </div>
@@ -79,3 +72,5 @@ const Contact = () => {
 }
 
 export default Contact
+
+

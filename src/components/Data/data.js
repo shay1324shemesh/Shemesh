@@ -4,7 +4,7 @@ export const nav = [
       path: "/",
     },
     {
-      text: "גבס",
+      text: "כרטיס ביקור",
       path: "/GalleryLink",
     },
     {

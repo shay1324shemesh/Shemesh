@@ -46,7 +46,7 @@ function VisitCard() {
 
     <div
     className={`visit-card ${flipped ? "flipped" : ""}`}
-    style={isDesktop ?{ width: "370px", height: "250px", borderRadius: "50px" } :{width: "450px", height: "270px", borderRadius: "50px" }}
+    style={isDesktop ?{ width: "350px", height: "250px", borderRadius: "50px" } :{width: "450px", height: "270px", borderRadius: "50px" }}
     onClick={handleFlip}
   >
     <div className="front">
@@ -86,21 +86,53 @@ function VisitCard() {
       </div>
 
       <div className="secondBack">
-      <div className="onlyBack">
+        {isDesktop ? 
+              <div className="noneBack">
       
-      </div>
-      <div className="onlyBack2">
+              </div>
+              :
+              <div className="onlyBack">
       
-      </div>
-      <div className="onlyBack3">
+              </div>
+              }
+        {isDesktop ? 
+              <div className="onlyBack2" style={{marginLeft:'10px',width:'1.5px'}}>
       
-      </div>
-      <div className="onlyBack4">
+              </div>
+              :
+              <div className="onlyBack2">
       
-      </div>
-      <div className="onlyBack5">
+              </div>
+              }
+        {isDesktop ? 
+              <div className="onlyBack3" style={{width:'1.5px',marginLeft:'5px'}}>
       
-      </div>
+              </div>
+              :
+              <div className="onlyBack3">
+      
+              </div>
+              }
+       {isDesktop ? 
+              <div className="onlyBack4" style={{width:'1.5px',marginLeft:'5px'}} >
+      
+              </div>
+              :
+              <div className="onlyBack4">
+      
+              </div>
+              }
+
+{isDesktop ? 
+              <div className="onlyBack5" style={{width:'1.5px',marginLeft:'5px'}} >
+      
+              </div>
+              :
+              <div className="onlyBack5">
+      
+              </div>
+              }
+  
       </div>
 
     </div>

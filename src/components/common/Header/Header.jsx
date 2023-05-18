@@ -79,7 +79,7 @@ const Header = ({ setNavList , navList}) => {
             <ul  className='shay' style={{display:'block'}}>
            {nav.map((list, index) => (
                 <li key={index} style={{display:'inline',marginLeft:'15px',marginRight:'15px'}}>
-                      <Link to={list.path}><button onClick={()=>{changeSit()}}  className="hhll" style={{color:'white',fontFamily:'Varela Round',fontSize:'22px',background:'transparent',textShadow:' black 5px 2px 5px'}}>{list.text}</button></Link>
+                      <Link to={list.path}><button onClick={()=>{changeSit()}}  className="hhll" style={{color:'white',fontFamily:'Varela Round',margin:'5px',borderBlock:'2px rgba(0, 174, 255, 0.793) solid',fontSize:'22px',background:'transparent',textShadow:' black 5px 2px 5px'}}>{list.text}</button></Link>
                  </li>
               ))}                          
             </ul>                     
@@ -88,7 +88,7 @@ const Header = ({ setNavList , navList}) => {
             shay
           </p>
           : <div className='buttonCall' style={{marginRight:'50px'}}>
-            <button className='btn1' style={{borderRadius:'5px',width:'175px',height:'75px',display:'flex',justifyContent:'center',alignItems:'center',fontSize:'20px',fontFamily:'Varela Round',color:'black',textShadow:'white 2.5px 2px 2px ',boxShadow:'white 1px 0 50px'}}>
+            <button className='btn1' style={{borderRadius:'5px',width:'125px',height:'75px',display:'flex',justifyContent:'center',alignItems:'center',fontSize:'17.5px',fontFamily:'Varela Round',color:'black',textShadow:'white 2.5px 2px 2px ',boxShadow:'white 1px 0 50px'}}>
               0508669944 - לשיחת ייעוץ  
             </button>
           </div>}

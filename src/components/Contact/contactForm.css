@@ -1,0 +1,41 @@
+.nameInput{
+    border-radius: 10px;
+    height: 40px;
+}
+.emailInput{
+    height: 40px;
+    border-radius: 10px;
+}
+.messegeArea{
+    height: 175px;
+}
+.nameLabel{
+    display: flex;
+    justify-content: center;
+    font-size: 17.5px;
+    margin-bottom: 5px;
+}
+.formH1{
+    text-align: center;
+    padding: 20px;
+}
+.submitInput{
+    height: 45px;
+    border-radius: 10px;
+    background-color: rgba(0, 170, 255, 0.695);
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+.messegeLabel{
+    display: flex;
+    justify-content: center;
+    font-size: 17.5px;
+    margin-bottom: 5px;
+}
+.emailLabel{
+    display: flex;
+    justify-content: center;
+    font-size: 17.5px;
+    margin-bottom: 5px;
+}

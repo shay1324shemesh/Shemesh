@@ -31,21 +31,17 @@
     border-radius: 5px;
 }
 
-.contact textarea,
-.contact input{
-    width: 100%;
-    margin-bottom: 20px;
-    margin-right: 10px;
-    border: 5px solid rgba(0, 0, 0, 0.1);
 
-}
-.contact form {
-    padding: 30px;
-}
+
 .formLogoDiv{
     display: flex;
     align-items: center;
 }
+.lastInput{
+    border-radius: 10px;
+    text-align: center;
+}
+
 .contact h4{
     margin-bottom: 30px;
 }
@@ -56,10 +52,12 @@
     justify-content: space-between;
 
 }
-
+.twoInputs input{
+    border-radius: 10px;
+}
 .formLogo{
     background-size:100% 100%;
-    height:130px;
+    height:200px;
     width:200px;
     margin-left:50px;
     background-repeat:'no-repeat';
@@ -73,6 +71,14 @@
     color: white;
     font-size: 20px;
 
+}
+
+
+.contact input, .contact textarea {
+    border: 5px solid rgba(0,0,0,.1);
+    margin-bottom: 20px;
+    margin-right: 10px;
+    width: 100%;
 }
 @media(max-width:830px){
     .containerForm{
