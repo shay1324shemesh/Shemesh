@@ -11,7 +11,6 @@ const AccessibilityWidget = () => {
   return (
     <div className="accessibility-widget" onClick={toggleMenu}>
       <div className="accessibility-icon">
-        <span className="material-icons">accessibility_new</span>
       </div>
       {isMenuOpen && <AccessibilityMenu />}
     </div>
@@ -19,3 +18,6 @@ const AccessibilityWidget = () => {
 };
 
 export default AccessibilityWidget;
+
+        {/* <span className="material-icons">accessibility_new</span> */}
+

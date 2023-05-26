@@ -4,6 +4,8 @@ import galleryVideo from './colorsVideo.mp4'
 import logoPhoto from '../common/Header/aviLogo.png'
 import VisitCard from '../VisitCard/VisitCard'
 import VisitCardHolder from '../VisitCard/VisitCardHolder'
+import PriceList from '../services/PriceList'
+import Footer from '../Footer/Footer'
 const GalleryLink = () => {
  
 
@@ -20,7 +22,9 @@ const GalleryLink = () => {
         <p>ריכזנו לכם דוגמאות מעבודות גבס רבות ומקצועיות שתוכלו להתרשם מהם</p>
       </div>
     </div>
-    <VisitCardHolder/>
+    <PriceList/>
+    <Footer/>
+
     </>
   )
 }

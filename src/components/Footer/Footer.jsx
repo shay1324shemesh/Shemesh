@@ -1,6 +1,4 @@
 import React from 'react'
-import { footer } from '../../Data/data'
-import Logo from '../Header/aviLogo.png'
 import './footer.css'
 import locationIcon from './goldLocation.png'
 import { useNavigate } from 'react-router-dom'
@@ -8,8 +6,9 @@ import instegramIcon from './instegramIcon.png'
 import facebookIcon from './facebookIcon.png'
 import whiteLogo from './whiteCallLogo.png'
 import websiteIcon from './websiteIcon.png'
+import useMediaQuery from '../common/Header/mediaQuery'
 const Footer = () => {
-
+    const isDesktop = useMediaQuery('max-width:829px')
     const nav = useNavigate();
     var albumBut = () => {
         nav('/choosealbum')
@@ -35,16 +34,20 @@ const Footer = () => {
         nav('/shop')
         window.scrollTo(0,0)
     }
+    var sendToSign=()=>{
+        nav('/contact')
+        window.scrollTo(0,0)
+    }
   return (
     <>
     <section className='footerContact'>
         <div className="containerFooter">
             <div className="send flex">
                 <div className="text">
-                    <h1>? מעוניין לקבוע תור</h1>
-                    <p>צור איתנו קשר עוד היום לקביעת תורים ומידע נוסף</p>
+                    <h1 style={{textAlign:'center'}}>? מעוניין בשיחת ייעוץ</h1>
+                    <p style={{textAlign:'center'}}>צור איתנו קשר עוד היום לשיחת ייעוץ ללא עלות ולמידע נוסף</p>
                 </div>
-                <button className='btn5'>Book Now</button>
+                <button className='btn5' onClick={()=>{sendToSign()}}>לחצו כאן ליצירת קשר</button>
             </div>
         </div>
     </section>
@@ -52,7 +55,7 @@ const Footer = () => {
     <div className='innerBoxFooter'>
 
     <div className='leftFooter'>
-        <h1 style={{color:'white',marginTop:'100px'}}>|  עקבו אחרינו  | </h1>
+        <h1 style={{color:'white',marginTop:'50px'}}>|  עקבו אחרינו  | </h1>
         <div className='buttnsDivFooter' >
         <div style={{height:'50px',width:'50px' ,margin:'25px',border:'1px goldenrod solid',display:'flex',justifyContent:'center',alignItems:'center'}}>
             <img src={instegramIcon} alt="" style={{height:'75%', width:'75%'}}/>
@@ -68,8 +71,8 @@ const Footer = () => {
             </div>
             <div className='controladdress'>
             <div className='addressText'>
-                <h3 style={{color:'white'}}>כתובת</h3>
-                <p style={{color:'white'}}>פתח תקווה , יוסף ספיר 18</p>
+                <h3 style={{color:'white'}}>אזורי פעילות</h3>
+                <p style={{color:'white'}}>כל אזור המרכז</p>
             </div>
             <div className='addressFooter'>
                 <div style={{height:'50px',width:'50px',border:'1px goldenrod solid',marginBottom:'10px',display:'flex',justifyContent:'center',alignItems:'center'}}>
@@ -79,8 +82,8 @@ const Footer = () => {
             </div>
             <div className='controladdress'>
             <div className='addressText'>
-                <h3 style={{color:'white'}}>אתר</h3>
-                <p style={{color:'white'}}>www.mdbarbershop.com</p>
+                <h3 style={{color:'white'}}>כתובת אימייל</h3>
+                <p style={{color:'white'}}>avrahamshemesh555@gmail.com</p>
             </div>
             <div className='addressFooter'>
                 <div style={{height:'50px',width:'50px',border:'1px goldenrod solid',marginBottom:'10px'}}>
@@ -92,7 +95,7 @@ const Footer = () => {
             <div className='controladdress'>
             <div className='addressText'>
                 <h3 style={{color:'white'}}>טלפון</h3>
-                <p style={{color:'white'}}>0545555555</p>
+                <p style={{color:'white'}}>0508669944</p>
             </div>
             <div className='addressFooter'>
                 <div style={{height:'50px',width:'50px',border:'1px goldenrod solid',display:'flex',justifyContent:'center',alignItems:'center'}}>
@@ -105,20 +108,20 @@ const Footer = () => {
 
     <div>
         <div className='menuFooter'>
-            <h1 style={{color:'white',textAlign:'end',marginTop:'50px'}}>| תפריט האתר | </h1>
+            <h1 style={isDesktop ? {color:'white',textAlign:'end',marginTop:'50px'} : {color:'white',textAlign:'center',marginTop:'50px'}}>| תפריט האתר | </h1>                    
             <div className='menuFooterButtoms'>
-            <button style={{marginTop:'35px'}} onClick={()=>dataBut()}>אודות</button>
+            <button style={{marginTop:'35px'}}>אודותינו</button>
             <button onClick={()=>itemsBut()}>מוצרים</button>
-            <button onClick={()=>priceListBut()}>מחירון</button>
+            <button onClick={()=>priceListBut()}>העבודות שלנו</button>
             <button onClick={()=>contactBut()}>צור קשר</button>
-            <button onClick={()=>albumBut()}>אלבומים</button>
+            <button onClick={()=>albumBut()}>כרטיס ביקור</button>
             <button onClick={()=>homeBut()}>עמוד הבית</button>
             </div>
         </div>
         </div>
     </div>
     <div className="legal">
-        <span> Apps and Websites Proffesional Developing By Shay Shemesh</span>
+        <span> Apps and Websites Professional Developing By Shay Shemesh</span>
     </div>
     </>
   )

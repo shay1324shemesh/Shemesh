@@ -9,6 +9,7 @@ import blockBlackPhoto from '../services/blackBackground.jpg'
 import About from '../About/About'
 import useMediaQuery from '../common/Header/mediaQuery'
 import ContactForm from './ContactForm'
+import Footer from '../Footer/Footer'
 const Contact = () => {
 
   const isDesktop = useMediaQuery('(max-width:829px)')
@@ -67,7 +68,10 @@ const Contact = () => {
           </div>
       </div>
     </section>
+    <Footer/>
+
     </>
+
   )
 }
 

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FiSettings } from 'react-icons/fi';
 import './accessibilityMenu.css';
+import iconImage from '../Advantage/accessibilityNewIcon.png'
 
 const AccessibilityMenu = () => {
   const [isOpen, setIsOpen] = useState(true);
@@ -27,9 +28,8 @@ const AccessibilityMenu = () => {
   };
 
   return (
-    <div className="accessibility-menu-wrapper">
-      <button className="accessibility-menu-icon" onClick={toggleAccessibilityMenu}>
-        <FiSettings />
+    <div className="accessibility-menu-wrapper" >
+      <button className="accessibility-menu-icon" style={{backgroundImage:`url(${iconImage})`,backgroundSize:'100% 100%'}} onClick={toggleAccessibilityMenu} >
       </button>
       <div className={`accessibility-menu-panel ${isOpen ? 'open' : ''}`}>
         <button onClick={() => setFontSize('1.2rem')}>Large Text</button>
@@ -43,3 +43,5 @@ const AccessibilityMenu = () => {
 };
 
 export default AccessibilityMenu;
+
+{/* <FiSettings /> */}

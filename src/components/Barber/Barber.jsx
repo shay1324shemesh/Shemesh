@@ -2,12 +2,13 @@ import React from 'react'
 import Image from './newPhoto.webp'
 import './barber.css'
 import avi from './aviPhoto.jpg'
-import backgroundImageBrown from './whiteTexture.jpg' 
+import backgroundImageBrown from '../common/Header/blueWhite.jpg' 
 import backgroundImageApp from './textureBackground.jpg' 
 import useMediaQuery from '../common/Header/mediaQuery'
 import backgroundVideo from './homeVideo.mp4'
 import lineDivider from './dividerLine.png'
 import logoPhoto from '../common/Header/aviLogo.png'
+import Advantage from '../Advantage/Advantage'
 
 let backgroundStyles={};
 const Barber = () => {
@@ -22,7 +23,7 @@ const Barber = () => {
     }
     else{
       backgroundStyles = {
-        backgroundImage:`url(${backgroundImageApp})`,
+        backgroundImage:`url(${backgroundImageBrown})`,
         backgroundSize:'100% 100%'
     }
   }
@@ -35,14 +36,18 @@ const Barber = () => {
       </video>
 
       <div className="textDivBarber">
+
         <img src={logoPhoto} alt="" height={'150px'} widget={'150px'}/>
         <h1>אברהם שמש קבלנות ויזמות</h1>
         <p style={{color:'rgb(0, 157, 255)',textShadow:'black 2px 1.5px 3px '}}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum in totam officiis alias vero earum consequatur quasi, ea quod, aut officia explicabo provident fugiat nisi blanditiis voluptas non! Temporibus, quos.</p>
       </div>
     </div>
+    <Advantage/>
+
     {isDesktop ?     
     <div className='mainBarber' style={{backgroundImage:`url(${backgroundImageBrown})`,backgroundSize:'100% 100%'}}>
     <div className='moveDiv'>
+
       <div className='textDiv' style={isDesktop ? {maxWidth:'70%',fontSize:'20px',marginTop:'100px'} : {maxWidth:'40%',fontSize:'20px'}}>
       <h1>מה זה בעצם קבלן רשום ?</h1>
       <p>
@@ -75,7 +80,7 @@ const Barber = () => {
 
     </div> 
     :
-    <div className='mainBarber' style={{backgroundImage:`url(${backgroundImageApp})`,backgroundSize:'100% 100%'}}>
+    <div className='mainBarber' style={{backgroundImage:`url(${backgroundImageBrown})`,backgroundSize:'100% 100%'}}>
     <div className='moveDiv'>
       <div className='textDiv' style={{maxWidth:'40%'}}>
       <h1>מה זה בעצם קבלן רשום ?</h1>

@@ -43,7 +43,6 @@
     position: absolute;
     object-fit: cover;
 }
-
 .mainGevesVideo .textDivGeves{
     width: 300px;
     padding: 20px;
@@ -62,7 +61,7 @@
 }
 .textDivGeves{
     color: rgb(0, 0, 0);
-    background-color:transparent;
+    background-color:rgba(0, 0, 0, 0.851);
     text-shadow: white 2px 5px 5px;
     font-size: 17.5px;
 }

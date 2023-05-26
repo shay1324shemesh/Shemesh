@@ -4,7 +4,7 @@ export const nav = [
       path: "/",
     },
     {
-      text: "כרטיס ביקור",
+      text: "העבודות שלנו",
       path: "/GalleryLink",
     },
     {
@@ -16,7 +16,7 @@ export const nav = [
       path: "/contact",
     },
     {
-      text: "העבודות שלנו",
+      text: "כרטיס ביקור",
       path: "/choosealbum",
     },
     {

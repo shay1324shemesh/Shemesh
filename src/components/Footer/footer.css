@@ -80,11 +80,11 @@ footer {
     border-bottom: white 1px solid;
     background-color: rgb(37, 36, 36);
 }
-.menuFooter{
+/* .menuFooter{
     display: flex;
     flex-direction: column;
     margin: 50px;
-}
+} */
 footer .container {
     display: grid;
     grid-template-columns: 6fr 2fr 2fr 1fr;
@@ -148,9 +148,17 @@ footer ul li {
     .leftFooterUp{
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
-        align-items: flex-end;
-        margin: 35px;
+        justify-content: center;
+    }
+    .innerFooterUp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .menuFooterButtoms button{
+        text-align: center;
     }
     .footerBox{
         height: 100%;
@@ -158,8 +166,11 @@ footer ul li {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-    }
 
+    }
+    .leftFooter h1{
+        text-align: center;
+    }
     .leftFooter{
         display: flex;
         justify-content: center;

@@ -86,10 +86,10 @@ label{
 .btn5{
   border-radius: 50px;
   margin-top: 25px;
-  color:goldenrod;
+  color:rgb(0, 174, 255);
   font-size: 20px;
   font-weight: 400;
-  border: 5px solid rgba(200, 160, 58, 0.337);
+  border: 5px solid rgba(0, 136, 255, 0.337);
   background: #fff;
   height: 75px;
   width: 250px;
