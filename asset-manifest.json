@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Shemesh/static/css/main.5730fd10.css",
-    "main.js": "/Shemesh/static/js/main.3ce6057b.js",
+    "main.css": "/Shemesh/static/css/main.b0c01062.css",
+    "main.js": "/Shemesh/static/js/main.2ba6d86b.js",
     "static/js/787.ec78c698.chunk.js": "/Shemesh/static/js/787.ec78c698.chunk.js",
     "static/media/colorsVideo.mp4": "/Shemesh/static/media/colorsVideo.f10ab128322cfa9fcae1.mp4",
     "static/media/homeVideo.mp4": "/Shemesh/static/media/homeVideo.6172c6ba5e6bc8121fb4.mp4",
@@ -11,7 +11,6 @@
     "static/media/contactBack.jpg": "/Shemesh/static/media/contactBack.c6a22e06bb34c8dd023c.jpg",
     "static/media/whitebackTools.jpg": "/Shemesh/static/media/whitebackTools.251bee8221d44d0994a7.jpg",
     "static/media/blackBackground.jpg": "/Shemesh/static/media/blackBackground.1b9ecb6a135be9f21cc3.jpg",
-    "static/media/whiteTexture.jpg": "/Shemesh/static/media/whiteTexture.80ac4b1a8c708aca7756.jpg",
     "static/media/imageBarber2.jpg": "/Shemesh/static/media/imageBarber2.66d160fbac766917ac52.jpg",
     "static/media/imageBarber3.jpg": "/Shemesh/static/media/imageBarber3.4ff4335154377659c4c7.jpg",
     "static/media/imageBarber4.jpg": "/Shemesh/static/media/imageBarber4.75d07ef9591018a03115.jpg",
@@ -44,6 +43,7 @@
     "static/media/p-2.png": "/Shemesh/static/media/p-2.29e1ce82548249598508.png",
     "static/media/greyBuilding.jpeg": "/Shemesh/static/media/greyBuilding.5455319275784f5a6c0b.jpeg",
     "static/media/aviPhoto.jpg": "/Shemesh/static/media/aviPhoto.771d93f1b7b178285b9b.jpg",
+    "static/media/blueWhite.jpg": "/Shemesh/static/media/blueWhite.95f9a08fe637d2a3d078.jpg",
     "static/media/h1.png": "/Shemesh/static/media/h1.39627af04b11bb28d173.png",
     "static/media/newPhoto.webp": "/Shemesh/static/media/newPhoto.a11c266865675f6bab9c.webp",
     "static/media/h2.png": "/Shemesh/static/media/h2.23cd275134501e1723d9.png",
@@ -54,12 +54,12 @@
     "static/media/secondLogo.png": "/Shemesh/static/media/secondLogo.5e2882e74c59320d1c63.png",
     "static/media/whatsappIcon.png": "/Shemesh/static/media/whatsappIcon.1251835df836e146d36a.png",
     "index.html": "/Shemesh/index.html",
-    "main.5730fd10.css.map": "/Shemesh/static/css/main.5730fd10.css.map",
-    "main.3ce6057b.js.map": "/Shemesh/static/js/main.3ce6057b.js.map",
+    "main.b0c01062.css.map": "/Shemesh/static/css/main.b0c01062.css.map",
+    "main.2ba6d86b.js.map": "/Shemesh/static/js/main.2ba6d86b.js.map",
     "787.ec78c698.chunk.js.map": "/Shemesh/static/js/787.ec78c698.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5730fd10.css",
-    "static/js/main.3ce6057b.js"
+    "static/css/main.b0c01062.css",
+    "static/js/main.2ba6d86b.js"
   ]
 }
